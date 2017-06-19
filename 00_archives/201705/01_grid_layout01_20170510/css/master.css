@@ -1,0 +1,34 @@
+/*grid systtem需要浏览器版本支持*/
+.container {
+  display: grid;
+  /*grid-template-columns: 30% 70%;*/
+  grid-template-areas: "r1-c1 r1-c1"
+                       "r2-c1 r2-c2"
+                       "r3-c1 r3-c1"
+}
+
+.main-header,.main-footer {
+  background-color: rgb(118, 181, 204);
+  text-align: center;
+  /*grid-column: 1 / span 2; /* 序号以及跨界 */*/
+}
+
+.main-header,.main-footer,.main,.sidebar {
+  padding: 30px;
+}
+
+.main-header {
+  grid-area: r1-c1;
+}
+
+.main-footer {
+  grid-area: r3-c1;
+}
+
+.main{
+  grid-area: r2-c2;
+}
+
+.sidebar{
+  grid-area: r2-c1;
+}

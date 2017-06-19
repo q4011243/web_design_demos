@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #272f32;
+  color: #555;
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: Garamond, serif;
+}
+
+h1 {
+  font-size: 30px;
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+button {
+  background-color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: #9dbdc6;
+  font-weight: bold;
+}
+
+.container {
+  background-color: #eee;
+  text-align: center;
+  width: 640px;
+  margin: 0 auto;
+}
+
+.main2 {
+  background-color: #f9f9f9;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+}
+
+.main2 button {
+  background-color: #9dbdc6;
+  color: #fff;
+}
+
+.main2 .article-image {
+  background: url('http://lorempixel.com/400/400/food/5') top center no-repeat;
+  border-radius: 4px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  grid-gap: 20px;
+  padding:40px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 4px;
+  position: relative;
+}
+
+.card1 {
+  grid-column-end: span 2;
+  padding: 10px;
+  background-color: #9dbdc6;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.card1 h2 {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.card2 {
+  background: url('http://lorempixel.com/400/200/food/1') top center no-repeat;
+}
+
+.card3 {
+  background: url('http://lorempixel.com/400/200/food/2') top center no-repeat;
+}
+
+.card4 {
+  background: url('http://lorempixel.com/400/200/food/3') top center no-repeat;
+}
+
+.card5 {
+  background: url('http://lorempixel.com/400/200/food/4') top center no-repeat;
+}
+
+.card-info {
+  background-color: #fff;
+  padding: 10px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: absolute;
+  bottom: 0;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.card-info .price {
+  color: #ff3d2e;
+  font-weight: bold;
+  font-size: 24px;
+  justify-self: end;
+  align-self: center;
+}
+
+.card-info .name {
+  justify-self: start;
+  align-self: center;
+}

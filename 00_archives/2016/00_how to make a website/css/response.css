@@ -1,0 +1,45 @@
+@media screen and (min-width:480px) {
+  #primary {
+    width: 50%;
+    float: left;
+  }
+
+  #secondary {
+    width: 40%;
+    float: right;
+  }
+
+  #gallery li{
+    max-width: 28.3333%;
+  }
+
+  #gallery li:nth-child(4n){
+    clear: left;
+  }
+
+  .touxiang {
+    float: left;
+    margin: 0 5% 30px 0;
+  }
+}
+
+@media screen and (min-width:660px) {
+  nav{
+    background: none;
+    float: right;
+    text-align: right;
+    width: 45%;
+    margin-right: 5%;
+  }
+
+  #logo {
+    float: left;
+    text-align: left;
+    width: 45%;
+    margin-left: 5%;
+  }
+
+  header {
+    border-bottom:5px solid rgb(22, 170, 108);
+  }
+}

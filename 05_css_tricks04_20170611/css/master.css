@@ -1,0 +1,9 @@
+body { font-family: sans-serif; }
+
+label {
+  color: #999;
+}
+
+input[type="checkbox"]:checked + label {
+  color: blue;
+}

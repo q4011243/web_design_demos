@@ -1,0 +1,44 @@
+.letter {
+  font-family: 'Arial Black';
+  font-size: 50px;
+  font-weight: bold;
+  color: #444;
+  display: inline-block;
+  position: relative;
+}
+
+.greensock {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.red { color: #c23; }
+.green { color: #4a2; }
+.blue { color: #00f; }
+.orange { color: #f84; }
+.purple { color: #909; }
+
+button {
+  border: none;
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 6px 20px;
+  transition: .5s;
+}
+
+button:hover {
+  background-color: #999;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.icons {;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}

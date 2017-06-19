@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>title</title>
+  <link rel="stylesheet" href="./css/master.css">
+  <link href="https://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://cdn.bootcss.com/skrollr/0.6.30/skrollr.min.js"></script>
+  <script src="./js/master.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <!-- background change -->
+  <div class="fixed_bg"
+       data-0="background-color:rgb(112,188,32);"
+       data-1000="background-color:rgb(55,55,55);width:100%;left:0%;"
+       data-2000="width:70%;left:15%;"
+  >
+
+    <!-- 各个区域 -->
+    <section id="slide01" class="slide"
+             data-0="top:0%;opacity:1;"
+             data-500="top:-100%;opacity:0;"
+    >
+      <div class="slide-content">
+        <h2>Stage01:Scroll Effects with skroll.js</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </section>
+
+    <section id="slide02" class="slide"
+             data-500="left:100%;opacity:0;"
+             data-1000="left:0%;opacity:1;"
+             data-2000="opacity:0;">
+      <div class="slide-content">
+        <h2>Stage02:Enter stage right</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </section>
+
+    <section id="slide03" class="slide"
+             data-1000="top:-100%;opacity:0;"
+             data-2000="top:0%;opacity:1;">
+      <div class="slide-content">
+        <h2>Stage03:Narrow the margins</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </section>
+
+     <section id="slide04" class="slide"
+              data-2000="opacity:0;"
+              data-3000="opacity:1;">
+      <div class="slide-content"
+           data-2000="top:300px;"
+           data-3000="top:0px">
+        <h2>Stage04:The Possibility are Endless</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </section>
+
+<div class="slide shuttle"
+     data-2500="top:100%;"
+     data-3500="top:-100%;"><img src="img/shuttle.png" alt="shuttle"></div>  </div>
+</body>
+
+</html>

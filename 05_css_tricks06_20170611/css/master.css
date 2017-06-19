@@ -1,0 +1,44 @@
+* { box-sizing: border-box; }
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/flowers.jpg') top center no-repeat;
+}
+.container {
+  width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  color: #777;
+  padding: 20px;
+  position: relative;
+  border: 3px solid #777;
+}
+.container h2 {
+  margin-top: 0;
+  font-family: 'Arial Narrow', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+/* 外边框 */
+.container::before {
+  content: " ";
+  background-color: red;
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  bottom: -7px;
+  left: -7px;
+  z-index: -1;
+  border: 3px solid yellow;
+}
+
+/*内边框*/
+.container::after {
+  content: " ";
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  bottom: 3px;
+  left: 3px;
+  border: 5px solid rgba(200,200,200,.5);
+}

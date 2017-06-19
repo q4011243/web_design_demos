@@ -1,0 +1,13 @@
+.navbar {
+  border-radius: 0
+}
+
+.image-text {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+.parallax-window {
+  height: 400px;
+  margin-bottom: 20px;
+}
