@@ -28,3 +28,31 @@
 .shuttle {
   margin-left:60px;
 }
+
+
+.slide-nav {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -105px;
+    z-index: 9999;
+    width: 210px;
+}
+
+.slide-nav a {
+    display: block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    margin-right: 10px;
+    border: 1px solid #fff;
+}
+
+.slide-nav a:last-child {
+    margin-right: 0;
+}

@@ -1,0 +1,41 @@
+body { font-family: arial; }
+#square {
+  background-image: radial-gradient(red, black);
+  position: relative;
+  width: 200px;
+  height: 200px;
+  /*float: left;*/
+}
+.text {
+  /*float: left;*/
+  font-family: arial;
+  font-size: 20px;
+  color: #333;
+  margin-left: 50px;
+}
+
+.para{
+  margin-top: 60px;
+  font-size: 20px;
+}
+
+.container {
+  width: 800px;
+  height: 400px;
+  background-color: black;
+  margin-top:30px;
+}
+
+.light {
+  margin: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  background-color: white;
+  margin:20px;
+  float:left;
+}
+
+.red {background-color: red}
+.blue {background-color: blue}
+.green {background-color: green}
