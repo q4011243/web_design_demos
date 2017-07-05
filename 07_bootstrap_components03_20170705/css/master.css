@@ -1,0 +1,24 @@
+body { padding-top: 30px; background-color: #ddd;}
+
+#myModal .modal-dialog {
+  left: 50px;
+  top: 30px;
+  margin: 0 0;
+}
+
+.modal-backdrop {
+  background-color: #CC99CC;
+}
+
+.modal-backdrop.show {
+  opacity: 0.5;
+}
+
+.modal-header , .modal-footer {
+  background-color: crimson;
+  color:white;
+}
+
+.modal-header .close {
+  color: white;
+}
